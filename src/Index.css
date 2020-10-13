@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    min-height: 100vh;
+}
+body{
+    background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input-text{
+    width: 50%;
+    height: 100%;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+   opacity: 0.8;
+}
+
+    .btn {
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: bold;
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+span{
+    padding: 10px;
+    color: #ecf0f1;
+    transition: 0.7s;
+}
+
+.btn:hover{
+     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+   
+}
+span:hover{
+    color: #2c3e50;
+}
+.recipe{
+    margin: 10px;
+   display: grid;
+   grid-gap: 5px;
+   padding: 5px;
+   grid-template-columns: auto auto;
+}
+.component{
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 25px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 25px -4px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+    min-width: 45%;
+   
+} 
+img{
+    border-radius: 50%;
+}
+ol{
+    display: block;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
